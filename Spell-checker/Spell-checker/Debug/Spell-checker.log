@@ -1,0 +1,8 @@
+﻿  assignment12.cpp
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\week12\Spell-checker\Spell-checker\src\spellCheck.h(34,24): warning C4018: '<=': signed/unsigned mismatch
+  spellCheck.cpp
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\week12\Spell-checker\Spell-checker\src\spellCheck.h(34,24): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\week12\Spell-checker\Spell-checker\src\spellCheck.cpp(23,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\week12\Spell-checker\Spell-checker\src\spellCheck.cpp(53,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Spell-checker.vcxproj -> C:\Users\jales\Documents\Codes\C++\BYU\CS235\week12\Spell-checker\Debug\Spell-checker.exe
