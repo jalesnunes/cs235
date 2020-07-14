@@ -1,0 +1,8 @@
+﻿  huffman.cpp
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(222,14): error C2131: expression did not evaluate to a constant
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(222,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(222,14): message : see usage of 'totalText'
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(226,18): error C2131: expression did not evaluate to a constant
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(226,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(226,18): message : see usage of 'totalText'
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Huffman Code\Huffman Code\src\huffman.cpp(232,47): warning C4552: '<<': result of expression not used

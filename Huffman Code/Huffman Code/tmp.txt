@@ -1,0 +1,246 @@
+
+assignment08.out:
+
+[0;90m------------------------------------------------------------
+[0m[0;90mStarting Test 1
+
+[0m   > Select the test you want to run:
+   > 	1. Just create and destroy a BinaryNode
+   > 	2. The above plus add a few nodes to create a Binary Tree
+   > 	3. The above plus display the contents of a Binary Tree
+   > 	4. The above plus merge Binary Trees
+   > 	a. To generate Huffman codes
+   > > [4m1
+[0m[0;90mEmpty tree of size one
+[0m   > Create a bool BinaryNode using the default constructor
+   > 	Size:    1
+[0;90mA singleton tree of size one
+[0m   > Create a double BinaryNode using the non-default constructor
+   > 	Size:    1
+   > Test 1 complete
+[1;92m
+Test 1 passed.
+[0m[0;90m------------------------------------------------------------
+
+[0m[0;90m------------------------------------------------------------
+[0m[0;90mStarting Test 2
+
+[0m   > Select the test you want to run:
+   > 	1. Just create and destroy a BinaryNode
+   > 	2. The above plus add a few nodes to create a Binary Tree
+   > 	3. The above plus display the contents of a Binary Tree
+   > 	4. The above plus merge Binary Trees
+   > 	a. To generate Huffman codes
+   > > [4m2
+[0m[0;90m
+[0m[0;90mCreate an integer Binary Tree with the non-default constructor.
+[0m[0;90mNext we will add six items to make a tree
+[0m   > The elements in the binary tree:
+   > 	Root......... 1
+   > 	Left......... 2
+   > 	Right........ 3
+   > 	Left-Left.... 4
+   > 	Left-Right... 5
+   > 	Right-Left... 6
+   > 	Right-Right.. 7
+   > 	Size: 7
+[0;90m
+[0m[0;90mTest to make sure pParent is set up correctly
+[0m   > All the parent nodes are correctly set
+[0;90m
+[0m[0;90mCheck to see if we can move nodes around
+[0m   > Was able to move the '6' and '7' nodes
+[0;90m
+[0m[0;90mCheck to see if deleteBinaryTree() works with partial trees
+[0m   > Size after deleting half the nodes: 4
+[0;90m
+[0m[0;90mCheck to see if deleteBinaryTree() can delete the rest of the tree.
+[0m[0;90mIf this fails, it probably means that the first call to deleteBinaryTree()
+[0m[0;90mleft the tree in an invalid state
+[0m   > Was able to delete the rest of the binary tree
+   > Test 2 complete
+[1;92m
+Test 2 passed.
+[0m[0;90m------------------------------------------------------------
+
+[0m[0;90m------------------------------------------------------------
+[0m[0;90mStarting Test 3
+
+[0m   > Select the test you want to run:
+   > 	1. Just create and destroy a BinaryNode
+   > 	2. The above plus add a few nodes to create a Binary Tree
+   > 	3. The above plus display the contents of a Binary Tree
+   > 	4. The above plus merge Binary Trees
+   > 	a. To generate Huffman codes
+   > > [4m3
+[0m[0;90mCreate a string Binary Node with the default constructor\n
+[0m   > Enter seven words
+[0;90m
+[0m[0;90mTest to see if you can add a node to a NULL root
+[0m   > 	Root node:         [4mfour
+[0m[0;90m
+[0m[0;90mThe next two cases were exercised in Test 2
+[0m   > 	Left child:        [4mtwo
+[0m   > 	Right child:       [4msix
+[0m[0;90m
+[0m[0;90mThese four also have been exercised in Test 2
+[0m   > 	Left-Left child:   [4mone
+[0m   > 	Left-Right child:  [4mthree
+[0m   > 	Right-Left child:  [4mfive
+[0m   > 	Right-Right child: [4mseven
+[0m[0;90m
+[0m[0;90mTwo tests here.
+[0m[0;90m1. See if we can add NULL nodes
+[0m[0;90m2. See if the insertion operator was correctly written
+[0m   > Completed tree: { one two three four five six seven }
+   > Test 3 complete
+[1;92m
+Test 3 passed.
+[0m[0;90m------------------------------------------------------------
+
+[0m[0;90m------------------------------------------------------------
+[0m[0;90mStarting Test 4
+
+[0m   > Select the test you want to run:
+   > 	1. Just create and destroy a BinaryNode
+   > 	2. The above plus add a few nodes to create a Binary Tree
+   > 	3. The above plus display the contents of a Binary Tree
+   > 	4. The above plus merge Binary Trees
+   > 	a. To generate Huffman codes
+   > > [4m4
+[0m[0;90m
+[0m[0;90mCreate the middle tree, nothing fancy
+[0m   > Middle tree: { l m n } size = 3
+[0;90m
+[0m[0;90mCreate the lower tree
+[0m   > Lower tree: { a b c } size = 3
+[0;90m
+[0m[0;90mCreate the upper tree
+[0m   > Upper tree: { x y z } size = 3
+[0;90m
+[0m[0;90mThe merged tree.
+[0m[0;90mWe are putting { a b c } under the l of { l m n }
+[0m[0;90mWe are putting { x y z } under the n of { l m n }
+[0m   > Merged tree: { a b c l m n x y z } size = 9
+[0;90m
+[0m[0;90mNow we will copy the merged tree into pCopy. We will
+[0m[0;90mdestory the merged tree but the copy should remain.
+[0m[0;90mFinally, we will display the copy.
+[0m   > [1;41mT[0m[1;41me[0m[1;41ms[0m[1;41mt[0m[1;41m [0m[1;41m4[0m [1;41mc[0m[1;41mo[0m[1;41mm[0m[1;41mp[0m[1;41ml[0m[1;41me[0m[1;41mt[0m[1;41me[0m[1;41m\[0m[1;41mn[0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m
+[0;47m[30mExp: Copied tree: { a b c l m n x y z } size = 9\n[0m
+   > [1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m[1;41m [0m
+[0;47m[30mExp: Test 4 complete\n[0m
+[1;91m
+Test 4 failed.
+[0m[0;90m------------------------------------------------------------
+
+[0m[0;90m------------------------------------------------------------
+[0m[0;90mStarting Test 5
+
+[0m   > Select the test you want to run:
+   > 	1. Just create and destroy a BinaryNode
+   > 	2. The above plus add a few nodes to create a Binary Tree
+   > 	3. The above plus display the contents of a Binary Tree
+   > 	4. The above plus merge Binary Trees
+   > 	a. To generate Huffman codes
+   > > [4ma
+[0m   > Enter the filename containing the value frequencies.
+   > Enter "quit" when done.
+[0;90m
+[0m[0;90mThe example from the assignment
+[0m[0;90m               1- A
+[0m[0;90m               |
+[0m[0;90m          1----+
+[0m[0;90m          |    |
+[0m[0;90m          |    0- D
+[0m[0;90m     1----+
+[0m[0;90m     |    |    1- C
+[0m[0;90m     |    |    |
+[0m[0;90m ----+    0----+
+[0m[0;90m     |         |
+[0m[0;90m     |         0- B
+[0m[0;90m     0-E
+[0m   > > [4m/home/cs235/week08/huffman1.txt
+[0m   > A = 111
+   > B = 100
+   > C = 101
+   > D = 110
+   > E = 0
+[0;90m
+[0m[0;90mThis one is quite a bit larger
+[0m[0;90m                    1-main   
+[0m[0;90m               1----+         
+[0m[0;90m               |    0-true   1-case
+[0m[0;90m               |             |
+[0m[0;90m          1----+        1----+    1-false
+[0m[0;90m          |    |        |    |    |
+[0m[0;90m          |    |        |    0----+    1-static
+[0m[0;90m          |    0--------+         |    |
+[0m[0;90m     1----+             |         0----+
+[0m[0;90m     |    |             0-struct       |
+[0m[0;90m     |    |    1-while                 0-goto
+[0m[0;90m     |    0----+
+[0m[0;90m ----+         0-int    1-for     1-switch
+[0m[0;90m     |                  |         |
+[0m[0;90m     |    1-------------+    1----+
+[0m[0;90m     |    |             |    |    |
+[0m[0;90m     0----+             0----+    0-do
+[0m[0;90m          |    1-class       |
+[0m[0;90m          0----+             0-else
+[0m[0;90m               0-if
+[0m   > > [4m/home/cs235/week08/huffman2.txt
+[0m   > case = 11011
+   > class = 001
+   > do = 01010
+   > else = 0100
+   > false = 110101
+   > for = 011
+   > goto = 1101000
+   > if = 000
+   > int = 100
+   > main = 1111
+   > static = 1101001
+   > struct = 1100
+   > switch = 01011
+   > true = 1110
+   > while = 101
+[0;90m
+[0m[0;90mI have seen this done by hand once by a student; it was huge!
+[0m   > > [4m/home/cs235/week08/huffman3.txt
+[0m   > a = 1111
+   > b = 101001
+   > c = 10001
+   > d = 10101
+   > e = 011
+   > f = 00010
+   > g = 101000
+   > h = 0100
+   > i = 1011
+   > j = 0000011101
+   > k = 0000010
+   > l = 11101
+   > m = 00001
+   > n = 1100
+   > o = 1101
+   > p = 00011
+   > q = 000001111
+   > r = 0101
+   > s = 1001
+   > t = 001
+   > u = 10000
+   > v = 000000
+   > w = 111001
+   > x = 00000110
+   > y = 111000
+   > z = 0000011100
+   > > [4mquit
+[0m[1;92m
+Test 5 passed.
+[0m[0;90m------------------------------------------------------------
+
+[0m[1;91m
+============================================================
+[0m[1;91mFailed 1/5 tests.
+[0m[1;91m============================================================
+
+[0m
