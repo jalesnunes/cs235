@@ -10,6 +10,14 @@ using std::string;
 
 #include "graph.h"
 
+vector<Vertex> Graph::findPath(const Vertex& v1, const Vertex& v2)
+{
+    vector<Vertex> path;
+
+
+    return path;
+}
+
 set <Vertex> Graph :: findEdges(const Vertex & v)
 {
    Vertex v2;

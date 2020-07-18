@@ -66,7 +66,7 @@ int main()
    switch (choice)
    {
       case 'a':
-         //solveMaze();
+         solveMaze();
          break;
       case '1':
          testSimple();

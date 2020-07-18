@@ -177,6 +177,23 @@ Graph readMaze(const char * fileName)
  *****************************************/
 void solveMaze()
 {
+    string fileName;
+    cout << "What is the filename? ";
+    cin >> fileName;
+
+    Graph g = readMaze(fileName.c_str());
+
+    CVertex start = CVertex(0, 0);
+    int gsize = g.size();
+    CVertex end = CVertex(gsize, gsize);
+    vector<Vertex> path;
+    path = g.findPath(start, end);
+
+    drawMaze(g, path);
+
+    string key;
+    cout << "Press any key to solve the maze.\n";
+    cin >> key;
 
    // your code goes here.
 }

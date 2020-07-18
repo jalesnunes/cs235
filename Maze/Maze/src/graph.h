@@ -14,6 +14,7 @@
 #include <cassert>
 #include "vertex.h"      // for Vertex, LVertex, and CVertex
 #include "set.h"
+#include "vector.h"
 using namespace custom;
 
 using std::string;
@@ -37,6 +38,7 @@ public:
    void add(const Vertex & v1, set <Vertex> & s);
    bool isEdge(const Vertex & v1, const Vertex & v2) const;
    set <Vertex> findEdges(const Vertex & v);
+   vector<Vertex> findPath(const Vertex& v1, const Vertex& v2);
 
 private:
    bool * grid;
