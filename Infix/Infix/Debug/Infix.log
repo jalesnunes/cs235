@@ -1,0 +1,5 @@
+﻿  assignment02.cpp
+  infix.cpp
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Infix\Infix\src\infix.cpp(54,31): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Infix.vcxproj -> C:\Users\jales\Documents\Codes\C++\BYU\CS235\Infix\Debug\Infix.exe

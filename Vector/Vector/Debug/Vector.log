@@ -1,0 +1,32 @@
+﻿  assignment01.cpp
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(47,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(82): message : see reference to class template instantiation 'custom::vector<T>' being compiled
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(48,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(52,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(63,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(89,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(129,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(166,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(263,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\assignment01.cpp(314,24): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\assignment01.cpp(315,24): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\assignment01.cpp(340,27): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\assignment01.cpp(351,19): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Vector\src\vector.h(168,8): warning C4101: 'addCapacity': unreferenced local variable
+  Vector.vcxproj -> C:\Users\jales\Documents\Codes\C++\BYU\CS235\Vector\Debug\Vector.exe
