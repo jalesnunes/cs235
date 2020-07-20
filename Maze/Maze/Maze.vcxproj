@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\graph.h" />
+    <ClInclude Include="src\list.h" />
     <ClInclude Include="src\maze.h" />
     <ClInclude Include="src\set.h" />
     <ClInclude Include="src\vector.h" />

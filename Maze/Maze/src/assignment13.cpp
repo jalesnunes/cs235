@@ -1,9 +1,9 @@
 /***********************************************************************
 * Program:
 *    Week 13, Graph
-*    Brother Helfrich, CS 235
+*    Brother Kirby, CS 235
 * Author:
-*    Br. Helfrich
+*    Davi Neves, Jales Nunes
 * Summary: 
 *    This is a driver program to exercise the Graph class.  When you
 *    submit your program, this should not be changed in any way.  That being

@@ -197,7 +197,7 @@ private:
 
 
 /*******************************************
-* SET :: -
+* SET :: Operator -
 *******************************************/
 template <class T>
 set<T> set<T> :: operator - (const set<T> & rhs) const
@@ -237,7 +237,7 @@ set<T> set<T> :: operator - (const set<T> & rhs) const
 }
 
 /*******************************************
-* SET :: &&
+* SET :: Operator &&
 *******************************************/
 template <class T>
 set<T> set<T> :: operator && (const set<T> & rhs) const
@@ -268,7 +268,7 @@ set<T> set<T> :: operator && (const set<T> & rhs) const
 }
 
 /*******************************************
-* SET :: Union ||
+* SET :: Operator Union ||
 *******************************************/
 template <class T>
 set<T> set<T> :: operator || (const set<T> & rhs) const
@@ -311,7 +311,7 @@ set<T> set<T> :: operator || (const set<T> & rhs) const
 }
 
 /********************************************
- * SET :: erase
+ * SET :: Method erase
  ********************************************/
 template <class T>
 typename set <T> :: iterator set <T> :: erase (set<T> :: iterator & it)
@@ -332,7 +332,7 @@ typename set <T> :: iterator set <T> :: erase (set<T> :: iterator & it)
 }
 
 /********************************************
- * SET :: Find
+ * SET :: Operator Find
  ********************************************/
 template <class T>
 typename set <T> :: iterator set <T> :: find (const T & t)
@@ -373,7 +373,7 @@ typename set <T> :: iterator set <T> :: end ()
 }
 
 /**********************************************
-* SET : Clear
+* SET : Operator Clear
 **********************************************/
 template <class T>
 void set<T>::clear()
@@ -382,7 +382,7 @@ void set<T>::clear()
 }
 
 /**********************************************
-* SET : Empty
+* SET : Operator Empty
 **********************************************/
 template <class T>
 bool set<T>::empty() const
@@ -489,7 +489,7 @@ void set<T>::insert(const T & t)
 }
 
 /*******************************************
-* SET :: Assignment =
+* SET :: Operator Assignment =
 *******************************************/
 template <class T>
 set<T>& set<T>::operator=(const set<T>& rhs)
@@ -548,7 +548,7 @@ set<T>::set(const set<T>& rhs)
 }
 
 /********************************************
-* CONSTRUCTOR: NON-DEFAULT
+* SET :: NON-DEFAULT CONSTRUCTOR 
 *******************************************/
 template <class T>
 set<T>::set(int numCapacity)

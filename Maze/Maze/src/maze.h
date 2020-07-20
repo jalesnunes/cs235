@@ -1,11 +1,11 @@
 /***********************************************************************
  * Component:
  *    Assignment 13, Maze
- *    Brother Helfrich, CS 235
+ *    Brother Kirby, CS 235
  * Author:
  *    Br. Helfrich
  * Summary:
- *    Draw and solve a maze
+ *    Draws and solves a maze
  ************************************************************************/
 
 #ifndef MAZE_H

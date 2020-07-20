@@ -1,11 +1,12 @@
 /***********************************************************************
  * Component:
  *    Assignment 12, Maze
- *    Brother Helfrich, CS 235
+ *    Brother Kirby, CS 235
  * Author:
  *    Br. Helfrich
+ *    Davi Neves, Jales Nunes
  * Summary:
- *    Draw and solve a maze
+ *    Draws and solves a maze
  ************************************************************************/
 
 
@@ -19,6 +20,7 @@
 //#include <set>
 #include "set.h"
 #include "vector.h"
+#include "list.h"
 
 using std::cout;
 using std::cin;
@@ -27,6 +29,7 @@ using std::ifstream;
 //using std::set;
 using custom::set;
 using custom::vector;
+using custom::list;
 
 /**********************************************
  * DRAW MAZE ROW
@@ -151,6 +154,7 @@ Graph readMaze(const char * fileName)
       return Graph(1);
    }
 
+   
    // read the size from the beginning of the maze
    int numCol;
    int numRow;
@@ -177,23 +181,36 @@ Graph readMaze(const char * fileName)
  *****************************************/
 void solveMaze()
 {
-    string fileName;
-    cout << "What is the filename? ";
-    cin >> fileName;
-
-    Graph g = readMaze(fileName.c_str());
-
-    CVertex start = CVertex(0, 0);
-    int gsize = g.size();
-    CVertex end = CVertex(gsize, gsize);
-    vector<Vertex> path;
-    path = g.findPath(start, end);
-
-    drawMaze(g, path);
-
-    string key;
-    cout << "Press any key to solve the maze.\n";
-    cin >> key;
-
    // your code goes here.
+   char fileName[256];
+   vector <Vertex> path;
+   list <Vertex> l;
+
+   //get the file name
+   cout << "What is the filename? ";
+   cin >> fileName;
+
+   //reads and draws the maze
+   Graph g(readMaze(fileName));
+   drawMaze(g, path);
+   
+   //solves the maze
+   cout << "Press any key to solve the maze." << endl;
+   cin.ignore();
+   cin.get();
+   
+   CVertex vFom(0, 0);
+   CVertex vTo(4, 4);
+/*
+   l = g.findPath(vFom, vTo);
+
+   int total = l.size();
+   //cout << total << endl;
+   for(int i = 0; i < total; i++)
+   {
+      path.push_back(l.back());
+      l.pop_back();
+   }
+*/
+   drawMaze(g, path);
 }

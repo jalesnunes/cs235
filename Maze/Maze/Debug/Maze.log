@@ -1,2 +1,14 @@
 ﻿  assignment13.cpp
-  Maze.vcxproj -> C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Debug\Maze.exe
+  graph.cpp
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(32,27): error C2131: expression did not evaluate to a constant
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(32,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(32,18): message : see usage of 'this'
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(33,23): error C2131: expression did not evaluate to a constant
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(33,23): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(33,23): message : see usage of 'this'
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(41,24): error C3863: array type 'int [this->4*this->4]' is not assignable
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(43,29): error C3863: array type 'int [this->4*this->4]' is not assignable
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(63,66): error C3863: array type 'int [this->4*this->4]' is not assignable
+C:\Users\jales\Documents\Codes\C++\BYU\CS235\Maze\Maze\src\graph.cpp(64,45): error C3863: array type 'Vertex [this->4]' is not assignable
+  maze.cpp
+  Generating Code...

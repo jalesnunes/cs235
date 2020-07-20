@@ -1,11 +1,29 @@
 ###############################################################
 # Program:
 #     Assignment 13, Graph
-#     Brother XXXXX, CS235
+#     Brother Kirby, CS235
 # Author:
-#     <your name here>
+#     Davi Neves, Jales Nunes
 # Summary:
-#     <put a description here>
+#     This program implements the Class Graph and
+#     runs some tests to verify the application of it. It uses
+#     the classes Graph, to implement the class Maze that draws,
+#     and solves a maze problem. 
+# Coding Time:
+#     Pair Programming: 1 hour
+#     Jales: 3 hours
+#     Davi:  5 hours
+# The most difficult part:
+#     Jales: For me the hardest part this week was the Maze.
+#    	     I tried to help Davi but I couldn't understand what
+#	     I am missing. Unfortunately, I only had an hour free
+#	     on Saturday to work on that with him.
+#     Davi:  The hardest part for me this week was the Graph
+#	     Class. First it was hard to understand how to use
+#	     properly my Set and List classes in it. Then the 
+#	     method Find Path was the hardest for me to 
+#	     implement. I kept getting stuck in the while loop
+#	     that computes the vertices to visit.
 ###############################################################
 
 ##############################################################
